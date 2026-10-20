@@ -1,0 +1,78 @@
+/* Dawn Harbor Design Tokens */
+:root {
+  /* Foundation */
+  --ink-900: #14262E;
+  --ink-700: #2B4450;
+  --ink-500: #566F7B;
+  --mist-50: #F4F8F7;
+  --mist-100: #E8F0EE;
+  --surface: #FFFFFF;
+  --line: #D2E0DC;
+  --focus: #1F6F8B;
+
+  /* Brand / Primary Actions */
+  --primary: #2F7F79;
+  --primary-hover: #256863;
+  --primary-tint: #E3F1EF;
+
+  /* Priority Levels */
+  --crit: #B5483F;
+  --crit-tint: #FBEAE7;
+  --high: #946311;
+  --high-tint: #FBF1DA;
+  --mod: #3A769F;
+  --mod-tint: #E4EFF7;
+  --low: #4B8566;
+  --low-tint: #E5F2EA;
+
+  /* Actor Colour Language */
+  --actor-ai: #65649F;
+  --actor-ai-tint: #EDEDF8;
+  --actor-rules: #3E6E8C;
+  --actor-rules-tint: #E6EEF4;
+  --actor-human: #2F7F79;
+  --actor-human-tint: #E3F1EF;
+  --actor-fallback: #8A6B2E;
+  --actor-fallback-tint: #F6EEDC;
+
+  /* Geometry */
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 1px 2px rgba(20,38,46,.06), 0 4px 14px rgba(20,38,46,.05);
+}
+
+/* Dark theme (P1 - Night Shift) */
+[data-theme="dark"] {
+  --ink-900: #E6F0EE;
+  --ink-700: #E6F0EE;
+  --ink-500: #9DB5BE;
+  --mist-50: #0E1C25;
+  --mist-100: #152833;
+  --surface: #1B3342;
+  --line: #28404D;
+  --focus: #4DA8D4;
+
+  --primary: #5FB8AE;
+  --primary-hover: #4AA398;
+  --primary-tint: #1A3A36;
+
+  --crit: #D46B5A;
+  --crit-tint: #3A1A16;
+  --high: #C98B2E;
+  --high-tint: #3A2E0A;
+  --mod: #6B9FD8;
+  --mod-tint: #0F2A3F;
+  --low: #7ACC9A;
+  --low-tint: #0F2D1F;
+
+  --actor-ai: #A8A7D8;
+  --actor-ai-tint: #2A284A;
+  --actor-rules: #8EB8D8;
+  --actor-rules-tint: #1A2A3A;
+  --actor-human: #5FB8AE;
+  --actor-human-tint: #1A3A36;
+  --actor-fallback: #C4A85E;
+  --actor-fallback-tint: #3A3010;
+
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 14px rgba(0,0,0,.2);
+}

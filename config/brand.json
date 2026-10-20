@@ -1,0 +1,12 @@
+{
+  "product_name": "Sahayak Dispatch",
+  "tagline": "Intelligent Emergency Dispatch Decision Support",
+  "demo_city": {
+    "name": "Kolkata",
+    "center": { "lat": 22.5726, "lng": 88.3639 },
+    "zoom": 12
+  },
+  "disclaimer": "DEMO — SIMULATED DATA ONLY. Not connected to emergency services. In a real emergency in India, call 112.",
+  "demo_badge": "DEMO / SIMULATED",
+  "version": "1.0.0-prototype"
+}
